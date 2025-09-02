@@ -1,0 +1,22 @@
+﻿<Window x:Class="lab02.Reportes2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab02"
+        mc:Ignorable="d"
+        Title="Reportes2" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="20">
+            <Label Content="Reportes" FontSize="28" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <Label Content="Fecha" FontSize="18" Margin="0,5"/>
+            <Label Content="Placa" FontSize="18" Margin="0,5"/>
+            <Label Content="Turno" FontSize="18" Margin="0,5"/>
+            <Label Content="Conductor" FontSize="18" Margin="0,5"/>
+            <Label Content="Producto" FontSize="18" Margin="0,5"/>
+            <Label Content="Peso" FontSize="18" Margin="0,5"/>
+            <Label Content="Transporte" FontSize="18" Margin="0,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

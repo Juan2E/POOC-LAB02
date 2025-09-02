@@ -7,9 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="haz click"/>
-        <TextBlock Text="Hola mundo"/>
-        <TextBox placeholder="" />
+        <StackPanel Margin="30" VerticalAlignment="Center">
+            <Label Content="Iniciar sesión" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <Label Content="Usuario:"/>
+            <TextBox x:Name="txtUsuario" Margin="0,0,0,10"/>
+
+            <Label Content="Contraseña:"/>
+            <PasswordBox x:Name="txtContrasena" Margin="0,0,0,20"/>
+
+            <Button Content="Ingresar" Width="100" HorizontalAlignment="Center" Click="Button_Click_2"/>
+        </StackPanel>
+
 
     </Grid>
 </Window>
