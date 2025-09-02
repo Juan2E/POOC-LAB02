@@ -7,8 +7,11 @@
         mc:Ignorable="d"
         Title="Operaciones2" Height="450" Width="800">
     <Grid>
-        <Button Content="Ingresos" Width="100" Height="30" HorizontalAlignment="Center" Click="Button_Click"  Margin="0,5" />
-        <Button Content="Salida" Width="100" Height="30" HorizontalAlignment="Center" Click="Button_Click_1"  Margin="0,253,0,151"/>
-        
+        <StackPanel Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Ingresos" Width="150" Height="40" Margin="0,5" Click="Button_Click"/>
+            <Button Content="Salida" Width="150" Height="40" Margin="0,5" Click="Button_Click_1"/>
+        </StackPanel>
+
+
     </Grid>
 </Window>

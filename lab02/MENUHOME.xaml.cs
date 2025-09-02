@@ -39,7 +39,8 @@ namespace lab02
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            Reportes reporte = new Reportes();
+            reporte.Show();
         }
     }
 }
