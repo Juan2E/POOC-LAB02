@@ -16,9 +16,11 @@ namespace lab02
     /// </summary>
     public partial class MainWindow : Window
     {
+        //primer comentario
         public MainWindow()
         {
             InitializeComponent();
         }
+        //segundo comentario
     }
 }
